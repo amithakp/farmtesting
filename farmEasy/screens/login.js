@@ -16,7 +16,7 @@ const Login = () => {
   facebookLogIn = async () => {
     try {
       await Facebook.initializeAsync({
-        appId: '1364592177376962',
+        appId: '',
       });
 
       const {
